@@ -7,6 +7,7 @@ import { GmailBtn1Component } from './gmail-btn1/gmail-btn1.component';
 import { GmailBtn2Component } from './gmail-btn2/gmail-btn2.component';
 import { AppRoutingModule } from './app-routing.module';
 import { GmailBtn3Component } from './gmail-btn3/gmail-btn3.component';
+import { FacebookLoginComponent } from './facebook-login/facebook-login.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { GmailBtn3Component } from './gmail-btn3/gmail-btn3.component';
     GmailBtn1Component,
     GmailBtn2Component,
     GmailBtn3Component,
+    FacebookLoginComponent,
   ],
   imports: [
     BrowserModule,
